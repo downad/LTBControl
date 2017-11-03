@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:summary="@string/preference_header_autocheck_summary"
+        android:title="@string/preference_header_autocheck_title" >
+        <CheckBoxPreference
+            android:key="AutoCheckQRMail"
+            android:summary="On/Off"
+            android:title="@string/preference_header_autocheck_title" />
+
+        <ListPreference
+            android:entries="@array/AutoCheckIntervalOptions"
+            android:entryValues="@array/AutoCheckIntervalValues"
+            android:key="AutoCheckInterval"
+            android:summary="Interval für das automatische Prüfen in Minuten"
+            android:title="Interval für das automatische Prüfen in Minuten" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- für das Preference_fragment_autocheck -->
+    <string-array name="AutoCheckIntervalOptions">
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>30 Minuten</item>
+        <item>60 Minuten</item>
+    </string-array>
+    <string-array name="AutoCheckIntervalValues">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <!-- aus dem Workshop -->
+    <string-array name="listOptions">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1 is selected</item>
+        <item>2 is selected</item>
+        <item>3 is selected</item>
+    </string-array>
+
+
+</resources>

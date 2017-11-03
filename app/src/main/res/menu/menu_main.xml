@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/actionmenu_settings_new"
+        android:title="Settings (neu)"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/actionmenu_show_settings"
+        android:title="@string/actionmenu_show_settings_title"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>

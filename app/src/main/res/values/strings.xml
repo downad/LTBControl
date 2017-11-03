@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">LTBControl</string>
+    <string name="app_version">0.8.3</string>
+
+    <!-- Button und TextView in der .MainActivity -->
+    <string name="mainactivity_textview_qrmail"><b>Checke QR-Mails</b>\nLTB-Mails einlesen und bearbeiten.</string>
+    <string name="mainactivity_textview_ltbcontrol"><b>Schülerlisten</b>\nListen erstellen, Klassen wählen.</string>
+    <string name="mainactivity_btn_checkqrmail">Check QRMail</string>
+    <string name="mainactivity_btn_droped_ltb">Abgegebene LTB</string>
+    <string name="mainactivity_btn_non_droped_ltb">Nicht abgegebene LTB</string>
+
+    <!-- Texte für die headers_ltbeinstellungen.xml -->
+    <string name="preference_header_login_title">Login Informationen</string>
+    <string name="preference_header_login_summary">Host, Username und Passwort Informationen</string>
+    <string name="preference_header_autocheck_title">automatischer QR-Mail check</string>
+    <string name="preference_header_autocheck_summary">Soll das Mailkonto automatisch überprüft werden?</string>
+    <string name="preference_header_line3_title">Zeile 3</string>
+    <string name="preference_header_line3_summary">summary Zeile 3</string>
+    <string name="preference_header_line4_title">Zeile 4</string>
+    <string name="preference_header_line4_summary">summary Zeile 4</string>
+    <string name="preference_header_line5_title">Zeile 5</string>
+    <string name="preference_header_line5_summary">summary Zeile 5</string>
+
+    <!-- das Menü aus .MainActivity -->
+    <string name="actionmenu_settings_title">Settings</string>
+    <string name="preference_host_title">Mailhost</string>
+    <string name="preference_host_key">host</string>
+    <string name="preference_host_summary">Bitte tragen sie den Mailhost ein.</string>
+    <string name="preference_username_title">Username</string>
+    <string name="preference_username_key">username</string>
+    <string name="preference_username_summary">Bitte tragen sie ihren Username ein.</string>
+    <string name="preference_password_title">Passwort</string>
+    <string name="preference_password_key">password</string>
+    <string name="preference_password_summary">Bitte tragen sie ihr Passwort ein.</string>
+    <string name="actionmenu_show_settings_title">Show Settings</string>
+    <string name="title_activity_showsettings">Zeige Settings</string>
+
+
+
+
+
+
+</resources>
